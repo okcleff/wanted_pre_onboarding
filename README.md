@@ -71,7 +71,7 @@
 
 #### 부가 요소
 - Email의 유효성을 정규표현식(`emailRegex`)을 통해 검사하고, 검사 결과에 따른 boolean 값을 상태로 관리
-- Email의 유효성 여부(`isValid`)에 따라 체크 이미지 조건부 스타일
+- Email의 유효성 여부(`isValid`)에 따라 체크 이미지 조건부 스타일(자동으로 체크 표시)
 - 비밀번호 입력창의 type을 상태로 관리(`password` 또는 `text`)
 - 비밀번호 입력창의 눈 모양 이미지는 `react-icons`에서 import
 - 눈 모양 이미지에 `onClick` 이벤트를 부여하여 `inputType`을 변경
